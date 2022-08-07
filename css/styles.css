@@ -120,7 +120,7 @@ color: var(--accent-text-color);
     align-items: center;
 }
 .contacts .item:not(:last-child){
-    margin-right: 30px;
+    margin-right: 27px;
 }
 .link {
   text-decoration: none; 
@@ -145,7 +145,7 @@ color: var(--accent-text-color);
     color: var(--accent-text-color);
 }
 .contacts a{
-    display: block;
+    
     padding-top: 32px;
     padding-bottom: 32px;
     
@@ -160,23 +160,39 @@ color: var(--accent-text-color);
 .contacts a:focus{
     color:var(--accent-text-color);
   }
-
-.email{
-    padding: 0;
-    border: none;
-}
-.icon-envelope{
-    width: 16px;
-    height: 16px;
+/* Contacts-nav */
+ 
+ .heder-mail{
+    display: inline-flex;
     align-items: center;
-}
-
-.icon-smartphone {
-    width: 10px;
-    height: 16px;
     fill: var(--body-text-color);
-}
+ }
 
+ .icons{
+    width: 16px;
+    height: 16px; 
+ }
+ .heder-mail:hover,
+ .heder-mail:focus{
+    fill:var(--accent-text-color);
+ }
+
+ .heder-mail .item:not(:last-child) {
+     margin-right: 10px;}
+
+.heder-tel {
+    display: inline-flex;
+    align-items: center;
+    fill: var(--body-text-color);
+    }
+.heder-tel .item:not(:last-child) {
+    margin-right: 7px;
+}
+.heder-tel:hover,
+.heder-tel:focus {
+    fill: var(--accent-text-color);
+}
+ 
   /* Hero */
 
 .hero{
